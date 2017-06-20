@@ -1,0 +1,89 @@
+*{
+	box-sizing: margin-box;
+}
+
+h1{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 150%;
+	font-weight: bold;
+	text-align: center;
+}
+
+h2{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-weight: bold;
+	text-align: center;
+	width: 150px;
+	height: 30px;
+}
+
+.row{
+	width: 100%;
+}
+
+.container{
+	background-color: grey;
+	padding: 5px;
+	border: 2px solid black;
+	margin: 10px;
+	position: relative;
+}
+
+.subheader{
+	padding: 1px;
+	border: 2px solid black;
+	margin: 0px;
+	position: absolute;
+	top: -2px;
+	right: 0px;
+}
+
+#color1{
+	background-color: #CD5C5C;
+}
+
+#color2{
+	background-color: #B22222;
+	color: white;
+}
+
+#color3{
+	background-color: #FAEBD7;
+}
+
+p{
+	position: relative;
+	top: 10px;
+}
+
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
+  .col-lg-4 {
+    width: 29%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 45%;
+  }
+  .col-md-12 {
+    width: 94%;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+  }
+  .col-sm-12 {
+    width: 94%;
+  }
+}
