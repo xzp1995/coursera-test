@@ -25,18 +25,18 @@ h2{
 .container{
 	background-color: grey;
 	padding: 5px;
-	border: 2px solid black;
+	border: 1px solid black;
 	margin: 1%;
 	position: relative;
 }
 
 .subheader{
 	padding: 1px;
-	border: 2px solid black;
+	border: 1px solid black;
 	margin: 0px;
 	position: absolute;
-	top: -2px;
-	right: 0px;
+	top: -1px;
+	right: -1px;
 }
 
 #color1{
