@@ -27,6 +27,7 @@ h2{
 	padding: 5px;
 	border: 1px solid black;
 	margin: 1%;
+	top: 60px;
 	position: relative;
 }
 
@@ -75,7 +76,7 @@ p{
     width: 46%;
   }
   .col-md-12 {
-    width: 96%;
+    width: 95.5%;
   }
 }
 
@@ -84,6 +85,6 @@ p{
     float: left;
   }
   .col-sm-12 {
-    width: 96%;
+    width: 95.5%;
   }
 }
