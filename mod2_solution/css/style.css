@@ -26,7 +26,7 @@ h2{
 	background-color: grey;
 	padding: 5px;
 	border: 2px solid black;
-	margin: 10px;
+	margin: 1%;
 	position: relative;
 }
 
@@ -62,7 +62,7 @@ p{
     float: left;
   }
   .col-lg-4 {
-    width: 29%;
+    width: 29.9%;
   }
 }
 
@@ -72,10 +72,10 @@ p{
     float: left;
   }
   .col-md-6 {
-    width: 45%;
+    width: 46%;
   }
   .col-md-12 {
-    width: 94%;
+    width: 96%;
   }
 }
 
@@ -84,6 +84,6 @@ p{
     float: left;
   }
   .col-sm-12 {
-    width: 94%;
+    width: 96%;
   }
 }
